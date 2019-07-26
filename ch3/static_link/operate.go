@@ -51,11 +51,11 @@ func ListDelete(list *StaticLinkList, i int) bool {
 	return true
 }
 
-// MallocSLL 分配节点
+// MallocSLL 分配结点
 // 若备用空间链表非空，则返回分配结点，否则返回 0
 func MallocSLL(space *StaticLinkList) int {
 	i := space[0].cur
-	if space[0].cur > 0 { // 0 表示分配的节点无后续空间
+	if space[0].cur > 0 { // 0 表示分配的结点无后续空间
 		space[0].cur = space[i].cur
 	}
 	return i
