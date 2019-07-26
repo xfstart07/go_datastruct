@@ -16,3 +16,8 @@ Push(*S, e) 入栈
 Pop(*S, *e) 出栈
 StackLength(S) 返回栈 S 的元素个数
 ```
+
+### 例子
+
+* [ch4stack/sqstack] 栈的顺序实现
+* [ch4stack/stack_link] 栈的链式实现
