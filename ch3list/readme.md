@@ -15,8 +15,8 @@
 
 ### 例子
 
-* [ch3/sqlist] 顺序存储结构
-* [ch3/single_link] 单链表
-* [ch3/static_link] 静态链表
-* [ch3/circular_link] 循环链表
-* [ch3/double_link] 双向链表
+* [ch3list/sqlist] 顺序存储结构
+* [ch3list/single_link] 单链表
+* [ch3list/static_link] 静态链表
+* [ch3list/circular_link] 循环链表
+* [ch3list/double_link] 双向链表
