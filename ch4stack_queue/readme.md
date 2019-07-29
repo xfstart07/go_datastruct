@@ -30,3 +30,4 @@ StackLength(S) 返回栈 S 的元素个数
 ### 例子
 
 * [ch4stack_queue/circular_queue] 循环队列
+* [ch4stack_queue/link_queue] 链表队列
