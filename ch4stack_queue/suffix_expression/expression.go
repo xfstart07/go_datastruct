@@ -4,7 +4,7 @@
 package suffix_expression
 
 import (
-	"datastruct/ch4stack/stack_link"
+	"datastruct/ch4stack_queue/stack_link"
 	"fmt"
 	"strconv"
 )
