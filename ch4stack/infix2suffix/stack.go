@@ -1,14 +1,14 @@
 // Author: xufei
 // Date: 2019-07-26
 
-package stack_link
+package infix2suffix
 
 func InitStack() *LinkStack {
 	link := new(LinkStack)
 	return link
 }
 
-func Push(link *LinkStack, e int) bool {
+func Push(link *LinkStack, e string) bool {
 	node := new(StackNode)
 	node.data = e
 
@@ -19,7 +19,7 @@ func Push(link *LinkStack, e int) bool {
 	return true
 }
 
-func (link *LinkStack) Push(e int) bool {
+func (link *LinkStack) Push(e string) bool {
 	node := new(StackNode)
 	node.data = e
 
@@ -30,7 +30,7 @@ func (link *LinkStack) Push(e int) bool {
 	return true
 }
 
-func (link *LinkStack) Pop(e *int) bool {
+func (link *LinkStack) Pop(e *string) bool {
 	if link.top == nil {
 		return false
 	}
@@ -43,7 +43,7 @@ func (link *LinkStack) Pop(e *int) bool {
 	return true
 }
 
-func (link *LinkStack) Top() int {
+func (link *LinkStack) Top() string {
 	return link.top.data
 }
 
