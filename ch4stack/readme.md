@@ -21,3 +21,4 @@ StackLength(S) 返回栈 S 的元素个数
 
 * [ch4stack/sqstack] 栈的顺序实现
 * [ch4stack/stack_link] 栈的链式实现
+* [ch4stack/fbi] 斐波那契数列
