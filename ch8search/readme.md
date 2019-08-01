@@ -29,3 +29,4 @@
 
 * [ch8search/binary] 折半查找
 * [ch8search/fibonacci] 斐波那契数列查找
+* [ch8search/binary_sort_tree] 二叉排序树
