@@ -1,7 +1,7 @@
 // Author: xufei
 // Date: 2019-08-02
 
-package print
+package printer
 
 import (
 	"log"

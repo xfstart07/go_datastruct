@@ -4,7 +4,7 @@
 package avl
 
 import (
-	print2 "datastruct/ch8search/print"
+	print2 "datastruct/ch8search/printer"
 	"log"
 	"testing"
 )

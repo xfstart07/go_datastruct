@@ -4,8 +4,8 @@
 package binary_sort_tree
 
 import (
+	"datastruct/ch8search/printer"
 	"fmt"
-	"log"
 )
 
 func (n *BiTNode) replaceNode(parent, elem *BiTNode) error {
@@ -20,15 +20,14 @@ func (n *BiTNode) replaceNode(parent, elem *BiTNode) error {
 	return nil
 }
 
-// 中序打印
-func Print(t *BiTNode) {
-	if t == nil {
-		return
-	}
+func (n *BiTNode) Data() interface{} {
+	return n.data
+}
 
-	log.Println(t.data) // 前序
-	Print(t.left)
-	//log.Println(t.data) // 中序
-	Print(t.right)
-	//log.Println(t.data) // 后序
+func (n *BiTNode) LeftNode() printer.Printer {
+	return n.left
+}
+
+func (n *BiTNode) RightNode() printer.Printer {
+	return n.right
 }

@@ -3,7 +3,7 @@
 
 package avl
 
-import print2 "datastruct/ch8search/print"
+import "datastruct/ch8search/printer"
 
 func (n *BitNode) getHeight() int {
 	if n == nil {
@@ -73,10 +73,10 @@ func (n *BitNode) Data() interface{} {
 	return n.data
 }
 
-func (n *BitNode) LeftNode() print2.Printer {
+func (n *BitNode) LeftNode() printer.Printer {
 	return n.left
 }
 
-func (n *BitNode) RightNode() print2.Printer {
+func (n *BitNode) RightNode() printer.Printer {
 	return n.right
 }
