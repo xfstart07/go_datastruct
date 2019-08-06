@@ -19,15 +19,15 @@ StackLength(S) 返回栈 S 的元素个数
 
 ### 例子
 
-* [ch4stack_queue/sqstack] 栈的顺序实现
-* [ch4stack_queue/stack_link] 栈的链式实现
-* [ch4stack_queue/fbi] 斐波那契数列
-* [ch4stack_queue/suffix_expression] 后缀表达式
-* [ch4stack_queue/infix2suffix] 中缀转后缀表达式
+* [sqstack栈的顺序实现](sqstack)
+* [stack_link栈的链式实现](stack_link)
+* [fbi 斐波那契数列](fbi)
+* [suffix_expression 后缀表达式](suffix_expression)
+* [infix2suffix中缀转后缀表达式](infix2suffix)
 
 # 队列
 
 ### 例子
 
-* [ch4stack_queue/circular_queue] 循环队列
-* [ch4stack_queue/link_queue] 链表队列
+* [circular_queue循环队列](circular_queue)
+* [link_queue链表队列](link_queue)

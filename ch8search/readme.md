@@ -35,6 +35,8 @@
 
 # 例子
 
-* [ch8search/binary] 折半查找
-* [ch8search/fibonacci] 斐波那契数列查找
-* [ch8search/binary_sort_tree] 二叉排序树
+* [binary折半查找](binary)
+* [fibonacci斐波那契数列查找](fibonacci)
+* [binary_sort_tree二叉排序树](binary_sort_tree)
+* [sequential顺序排序](sequential)
+* [avl平衡二叉树](avl)
