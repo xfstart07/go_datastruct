@@ -1,7 +1,7 @@
 // Author: xufei
 // Date: 2019-07-24
 
-package ch2algorithm
+package sum
 
 import "testing"
 
