@@ -24,7 +24,7 @@ type LRUCache struct {
 func Constructor(capacity int) LRUCache {
 	cache := LRUCache{
 		capacity: capacity,
-		hash:     make(map[int]*Value, capacity),
+		hash:     make(map[int]*Value),
 		keys:     list.New(),
 	}
 
