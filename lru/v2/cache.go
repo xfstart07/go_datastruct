@@ -85,6 +85,10 @@ func (this *LRUCache) remove(node *Node) {
 	node.prev.next = node.next
 	node.next.prev = node.prev
 
+	// 避免内存泄漏
+	node.next = nil
+	node.prev = nil
+
 	delete(this.hash, node.key)
 	this.count--
 }
