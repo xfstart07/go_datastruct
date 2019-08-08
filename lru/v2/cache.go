@@ -23,7 +23,7 @@ type LRUCache struct {
 func Constructor(capacity int) LRUCache {
 	cache := LRUCache{
 		capacity: capacity,
-		hash:     make(map[int]*Node, capacity),
+		hash:     make(map[int]*Node),
 		front:    &Node{key: -1, value: -1},
 		rear:     &Node{key: -1, value: -1},
 	}
