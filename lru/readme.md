@@ -10,9 +10,9 @@ LRU（Least Recently Used）思路：基本思路是在获取缓存的同时将�
 
 # Ref
 
-* https://leetcode-cn.com/problems/lru-cache/
-* https://zh.wikipedia.org/wiki/%E5%BF%AB%E5%8F%96%E6%96%87%E4%BB%B6%E7%BD%AE%E6%8F%9B%E6%A9%9F%E5%88%B6
-* https://www.youtube.com/watch?v=O1Glb6FDZhk&list=PLItNLuX80m9DSNLBTLno6ifA2Vk9jpk4I&index=47
+* [lru 练习题](https://leetcode-cn.com/problems/lru-cache/)
+* [快取文件置换机制](https://zh.wikipedia.org/wiki/%E5%BF%AB%E5%8F%96%E6%96%87%E4%BB%B6%E7%BD%AE%E6%8F%9B%E6%A9%9F%E5%88%B6)
+* [算法讲解](https://www.youtube.com/watch?v=O1Glb6FDZhk&list=PLItNLuX80m9DSNLBTLno6ifA2Vk9jpk4I&index=47)
 
 # Redis
 
