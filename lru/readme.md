@@ -16,8 +16,6 @@ LRU（Least Recently Used）思路：基本思路是在获取缓存的同时将�
 
 # Redis
 
-* [Redis 数据淘汰机制](https://wiki.jikexueyuan.com/project/redis/data-elimination-mechanism.html)
-
 ### 近似LRU算法
 
 Redis的LRU算法不是一个严格的LRU实现。这意味着Redis不能选择最佳候选键来回收，也就是最久未被访问的那些键。相反，Redis 会尝试执行一个近似的LRU算法，通过采样一小部分键，然后在采样键中回收最适合(拥有最久访问时间)的那个。
@@ -40,3 +38,4 @@ Redis的LRU算法不是一个严格的LRU实现。这意味着Redis不能选择�
 ## Ref
 
 * http://ifeve.com/redis-lru/
+* [Redis 数据淘汰机制](https://wiki.jikexueyuan.com/project/redis/data-elimination-mechanism.html)
