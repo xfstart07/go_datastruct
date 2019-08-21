@@ -17,6 +17,12 @@
 ## 其他
 
 * [LRU算法](lru)
+* [Trie](trie)
+
+## Leetcode
+
+* [LRU算法](lru) 
+* [Trie](trie)
 
 # 资料
 
